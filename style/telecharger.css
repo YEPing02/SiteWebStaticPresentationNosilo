@@ -1,0 +1,29 @@
+.image{
+	top: -300;
+}
+.poster{
+	position: absolute;
+	margin:5% auto 10% 5%;
+	z-index: 10;
+	width: 30%;
+	max-width: 500;
+	box-shadow: 10px 10px 50px grey;
+}
+.document{
+	z-index: 10;
+	margin:5% auto 10% 45%;
+	position: absolute;
+	background-color: white;
+	width: 30%;
+	max-width: 500;
+	box-shadow: 10px 10px 50px grey;
+}
+#poster,#document{
+	width: 100%;
+}
+#btn_telecharger_document{
+	position: absolute;
+	left: 10;
+	top: 10;
+	width: 50;
+}

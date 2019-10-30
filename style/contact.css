@@ -1,0 +1,122 @@
+.image{
+	top: 0;
+	left: 10%;
+}
+.cover{
+	height: 100%;
+	width: 100%;
+	z-index: 5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0.3;
+	background-color: #bfbfbf;
+	transition: opacity 0.3S;
+}
+h1{
+	text-align: center;
+}
+.contact_fb{
+	display: block;
+}
+.contact_mail{
+	display: none;
+}
+.choisir_contact{
+	width: 100%;
+	height: 75px;
+}
+.logo_fb{
+	border-radius: 10%;
+	position: absolute;
+	background: url(../images/slogo_fb.png);
+		background-size: cover;
+	width: 75;
+	height: 75px;
+	margin-bottom: 10px;
+	transition: 0.3S;
+}
+.logo_fb_selected{
+	position: absolute;
+	background: url(../images/logo_fb.jpg);
+		background-size: cover;
+	width: 325;
+	height: 75px;
+	margin-bottom: 10px;
+	transition: 0.3S;
+}
+.logo_ut1c{
+	position: absolute;
+	border-radius: 10%;
+	float: right;
+	margin-left: 100;
+	background: url(../images/slogo_ut1c.png);
+		background-size: cover;
+	width: 75px;
+	height: 75px;
+	margin-left: 325;
+	margin-bottom: 10px;
+	transition: 0.3S;
+}
+.logo_ut1c_selected{
+	float: right;
+	margin-left: 100;
+	background: url(../images/logo_ut1c.png);
+		background-size: cover;
+	width: 325;
+	height: 75px;
+	margin-bottom: 10px;
+	transition: 0.3S;
+}
+.logo_fb:hover{
+	transform: scale(1.1)
+}
+.logo_ut1c:hover{
+transform: scale(1.1)
+}
+.membrelfb,.membrerfb{
+	margin-top:-10;
+	width: 80%;
+	height: 60px;
+	background-color: grey;
+	font-size: 20;
+	transition: 0.3s;
+}
+.membrelm,.membrerm{
+	margin-top:-10;
+	width: 80%;
+	height: 60px;
+	background-color:  #85adad;
+	font-size: 20;
+	transition: 0.3s;
+}
+.membrelfb,.membrelm{
+margin-left: 5%;
+}
+.membrerfb,.membrerm{
+margin-left: 15%;
+}
+.namel,.namer{
+	line-height: 60px;
+	color: white;
+text-align: center;
+}
+.imgpersol,.imgpersor{
+	float: left;
+	width: 60;
+	height: 60;
+	left:10;
+	border-radius:50%
+}
+.imgpersor{
+	float: right;
+}
+a:link, a:visited, a:active, a:hover{
+	text-decoration: none;
+}
+.membrelfb:hover,.membrerfb:hover{
+	background-color: #1a1a1a;
+}
+.membrelm:hover,.membrerm:hover{
+background-color: #1a1a1a;
+}

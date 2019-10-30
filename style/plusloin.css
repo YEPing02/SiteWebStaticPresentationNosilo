@@ -1,0 +1,176 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+.menu{
+	position:absolute;
+	height: 100%;	
+	width: 20%;
+	min-width:330px;
+	min-height:750px;
+	background-color: #23241e;
+	left:0;
+	top:0;
+	
+	}
+
+#logo{
+	position:relative;
+	width:100%;
+	height:20%;
+	margin:5px 0 10px 0;
+	}
+	
+#fenge{
+	position:relative;
+	width:90%;
+	height:2.5%;
+    left:5%;
+	margin: 10px 0 15px 0;
+}
+
+.menu_titre{
+	position:relative;
+	display:block;
+	padding:5px ;
+	left:0;
+	width:330px;
+	height:4%;
+	
+}
+.menu_1{
+    position:relative;
+	display:block;
+    height:90%;
+	left:30px;
+}
+
+.menu_titre:hover{
+	background-color: black;
+}
+
+.menu_sous_titre{
+	position:relative;
+	display:block;
+	padding:5px;
+	left:0;
+	width:100%;
+	height:3%;	
+}
+
+
+.menu_1_1{
+	position:relative;
+	display:block;
+	height:80%;
+	left:30px;
+}
+
+.menu_sous_titre:hover{
+	background-color: black;
+}
+
+.contenu{
+    position:absolute;
+	left:0;
+	height:100%;
+	width:100%;
+	min-width:990px;
+	min-height:750px;
+	top:0;
+}
+
+#fond{
+	position:absolute;
+	left:0;
+	height:100%;
+	width:100%;
+	min-width:990px;
+	min-height:750px;
+	top:0;
+}
+
+.arbre{
+	position:absolute;
+	left:20%;
+	width:20%;
+	height:45%;
+	top:33%;
+	
+}
+
+.article{
+	position:absolute;
+	left:42%;
+	width:44%;
+	height:53%;
+	top:22%;
+	overflow: scroll;
+	font-family: Georgia, serif;
+	font-size:18px;
+	font-weight:bold;
+}
+p:first-letter
+{ 
+font-size:200%;
+color:660000;
+}
+
+::-webkit-scrollbar{
+display:none;
+}
+
+.titre{
+	position:absolute;
+	left:15%;
+	width:25%;
+	height:15%;
+	top:25%;	
+}
+
+.button {
+  position:absolute;
+  color: #300000;
+  text-align: center;
+  font-size: 55px;
+  font-family: Georgia, serif;
+  font-weight:bold;
+  width: 200px;
+  height:100px;
+  transition: all 0.5s;
+  left:16%;
+  top:62%;
+}
+
+.bk{
+	transition: 0.5s;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: url(images/cao2.png);
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -50px;
+  transition: 0.5s;
+}
+
+
+.button:hover .bk{
+  opacity: 0;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

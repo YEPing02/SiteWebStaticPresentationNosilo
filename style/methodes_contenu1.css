@@ -1,0 +1,71 @@
+#article_app_ai{
+display: none;
+}
+.image_ai{
+ background: url(../images/methodes_contenu1_ai.jpg);
+	position: fixed;
+	top: 0;
+left: 0;
+	height: 50%;
+	width: 100%;
+
+}
+.image_app_ai{
+ background: url(../images/methodes_contenu1_app_ai.jpg);
+ position: fixed;
+	top:50%;
+left:0;
+ height: 50%;
+ width: 100%;
+}
+.cover1{
+	height: 50%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	margin-right: 45%;
+left: 0;
+opacity: 0;
+background-color: #bfbfbf;
+transition: opacity 0.3S;
+}
+.cover1:hover{
+	opacity: 0 !important;
+}
+.cover2{
+	height: 50%;
+	width: 100%;
+	position: fixed;
+	top: 50%;
+	margin-right: 45%;
+left: 0;
+opacity: 0.5;
+background-color: #bfbfbf;
+transition: opacity 0.3S;
+}
+.cover2:hover{
+	opacity: 0 !important;
+}
+
+.image_ai_titre{
+	margin-left: 5%;
+	position: fixed;
+	top: 5%;
+	width: 30%;
+	font-size: 5vw;
+	color: white;
+	text-shadow: 0 0 100px  blue;
+}
+.image_app_ai_titre{
+	margin-left: 5%;
+	position: fixed;
+		top: 55%;
+		width: 30%;
+		font-size: 5vw;
+	color: white;
+	text-shadow: 0 0 100px red;
+}
+#system_gestion{
+	width: 100%;
+	height: auto;
+}

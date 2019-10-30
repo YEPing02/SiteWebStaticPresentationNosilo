@@ -1,0 +1,180 @@
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+#menu_selected{
+	background-color: grey;
+}
+.menu{
+	position:absolute;
+	height: 100%;
+	width: 20%;
+	min-width:330px;
+	min-height:750px;
+	background-color: #23241e;
+	left:0;
+	top:0;
+
+	}
+
+#logo{
+	position:relative;
+	width:100%;
+	height:20%;
+	margin:5px 0 10px 0;
+	}
+
+#fenge{
+	position:relative;
+	width:90%;
+	height:2.5%;
+    left:5%;
+	margin: 10px 0 15px 0;
+}
+
+.menu_titre{
+	position:relative;
+	display:block;
+	padding:5px ;
+	left:0;
+	width:330px;
+	height:4%;
+
+}
+.menu_1{
+    position:relative;
+	display:block;
+    height:90%;
+	left:30px;
+}
+
+.menu_titre:hover{
+	background-color: black;
+}
+
+.menu_sous_titre{
+	position:relative;
+	display:block;
+	padding:5px;
+	left:0;
+	width:100%;
+	height:3%;
+}
+
+
+.menu_1_1{
+	position:relative;
+	display:block;
+	height:80%;
+	left:30px;
+}
+
+.menu_sous_titre:hover{
+	background-color: black;
+}
+
+.contenu{
+    position:absolute;
+	left:330px;
+	height:100%;
+	width:80%;
+	min-width:990px;
+	min-height:750px;
+	top:0;
+}
+
+.contenu1{
+	position:absolute;
+	height: 100%;
+	width:50%;
+	min-width:330px;
+	left: 0;
+	top:0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../images/ai.jpg");
+}
+
+.contenu2{
+	position:absolute;
+	height: 70%;
+	width: 50%;
+	min-width:330px;
+	right:0;
+	top:0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/3d.jpg");
+}
+
+.contenu3{
+	position: absolute;
+	height: 30%;
+	width: 50%;
+	min-width:330px;
+	right:0;
+    top:70%;
+	background-color: #23241e;
+}
+ #main{
+	 position: absolute;
+	 width: 70%;
+	 min-width:330px;
+	 left:15%;
+	 top:20px;
+ }
+
+.text1{
+	position:absolute;
+	width: 80%;
+	min-width:280px;
+	top:40%;
+	left:10%;
+	color: white;
+	font-size: 20px;
+	text-align:center;
+}
+
+.text2{
+	position:absolute;
+	width: 80%;
+	min-width:280px;
+	top:40%;
+    left:10%;
+	color: white;
+	font-size: 20px;
+	text-align:center;
+}
+
+
+.cover1{
+	position:absolute;
+	height: 100%;
+	width:50%;
+	min-width:330px;
+	left: 0;
+	top:0;
+	background-color:rgba(21, 24, 18, 0.7);
+	transition: all 0.3s ease-in;
+}
+
+.cover1:hover {
+	background-color:rgba(49, 55, 40, 0);
+}
+
+
+
+.cover2{
+	position:absolute;
+	height: 70%;
+	width: 50%;
+	min-width:330px;
+	right:0;
+	top:0;
+	background-color:rgba(21, 24, 18, 0.7);
+	transition: all 0.3s ease-in;
+}
+
+.cover2:hover {
+	background-color:rgba(49, 55, 40, 0);
+}
